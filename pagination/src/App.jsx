@@ -30,7 +30,7 @@ const selectPagehandler=(selectPage)=>{
    <div>
     {products.length>0 && <div className='products'>
       {products.map((item)=>{
-return <span className='products__singal' key={item.id}>
+return <span className='products__single' key={item.id}>
   <img src={item.thumbnail} alt={item.title} />
   <span>
     {item.title}
